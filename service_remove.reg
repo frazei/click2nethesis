@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\sip]
+@="URL:Click2Nethesis sip Protocol"
+"URL Protocol"=""
+
+[-HKEY_CLASSES_ROOT\sip\DefaultIcon]
+@="\"C:\\Program Files\\click2nethesis\\click2nethesis.ico\",1"
+
+[-HKEY_CLASSES_ROOT\sip\shell]
+
+[-HKEY_CLASSES_ROOT\sip\shell\open]
+
+[-HKEY_CLASSES_ROOT\sip\shell\open\command]
+@="\"C:\\Program Files\\click2nethesis\\service.exe\" \"%1\""
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run]
+"click2nethesis"="C:\\Program Files\\click2nethesis\\click2nethesis.exe"
